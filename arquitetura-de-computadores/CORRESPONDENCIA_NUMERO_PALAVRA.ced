@@ -1,0 +1,10 @@
+ORG 0 
+MOV #1024,R0
+MOV (R0),R1
+HLT
+
+
+
+
+ORG 1024
+NUMERO: DW 1

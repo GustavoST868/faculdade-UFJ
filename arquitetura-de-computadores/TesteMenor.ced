@@ -1,0 +1,41 @@
+ORG 0
+
+MOV #1028, R2   ;R2 <- 1028
+
+MOV CONT, R1     ;R1<- cont
+
+MOV (R2), R0    ;R0<- 2, CONTEUDO QUE R2 ESTÁ APONTANDO
+
+DEC R1          ; R1 <- (R1 - 1)
+
+ADD #2,R2       ; R2<- R2 +2
+
+INILACO:        ;inicio do laço
+
+CMP (R2),R0     ; (R2)-R0
+
+BLT ATUALIZA    ; 
+ADD #2,R2       ; R2<- R2 + 2
+BR FIMLACO       ; pula para o fimlaço
+
+
+
+
+
+ATUALIZA:
+MOV (R2),R0 
+ADD #2,R2
+
+FIMLACO: 
+
+SOB R1,INILACO  ;SUBTRAI 1 E FAZ O BRANCH, SE O R1>0 VAI PARA 
+
+MOV R0, MENOR; R0 <- MENOR
+HLT
+
+
+ORG 1024
+ 
+CONT: DW 5     ;criando variavel cont 
+MENOR: DW 0    ;criando variavel MENOR
+VETOR: DAW 5,5,7,4,3  ;criando vetor de 5 posições

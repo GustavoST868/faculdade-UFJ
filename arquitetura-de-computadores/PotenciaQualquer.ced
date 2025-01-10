@@ -1,0 +1,17 @@
+MOV #5,R0     ; define o valor a ser multiplicado pela potencia de 2
+
+MOV #64,R1    ; define a potencia de 2 que sera utilizada(1,2,4,8,16,32,64,128,256,512...)
+
+CMP R1,#2     ;R1 - 2
+BLT GRAVA
+
+INICIOLACO: ASL R0
+ASR R1
+CMP R1,#1
+BGT INICIOLACO
+JMP GRAVA
+
+
+GRAVA: MOV R0, R3    ; ao final da execucao, o registrador R0 e R3 devem conter o resultado da multiplicacao.
+
+HLT

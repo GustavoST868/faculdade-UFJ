@@ -1,0 +1,12 @@
+MOV #16,R0     ; define o valor a ser dividido pela potencia de 2
+
+MOV #1,R1    ; define a potencia de 2 que sera utilizada(1,2,4,8,16,32,64,128,256,512...)
+
+
+ASR R0 ;divide R0 por 2
+
+
+
+MOV R0, R3    ; ao final da execucao, o registrador R0 e R3 devem conter o resultado da multiplicacao.
+
+HLT
