@@ -1,0 +1,9 @@
+Algoritmo "Temperatura"
+Var
+f, c :real
+Inicio
+escreva("Informe a temperatura em Farenheit : ")
+leia(f)
+c <-(((5*f)-32)/9)
+escreva("Sua temperatura em Centígrados é ",c," oC.")
+Fimalgoritmo

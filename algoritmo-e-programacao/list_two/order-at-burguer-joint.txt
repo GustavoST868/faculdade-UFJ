@@ -1,0 +1,30 @@
+var
+opcao: real
+valor_cliente,valor_receber : real
+inicio
+escreval("1 Big Burger")
+escreval("2 Medio Burger ")
+escreval("3 Little Burger")
+escreva("Opção desejada : ")
+leia(opcao)
+escolha opcao
+caso 1
+escreval("1 hamburguer especial, batata frita e refrigerante R$40,00")
+escreva("Valor que possue : ")
+leia(valor_cliente)
+valor_receber<- (valor_cliente-40)
+escreval("Troco : R$",valor_receber)
+caso 2
+escreval("1 hamburguer e refrigerante R$30,00")
+escreva("Valor que possue : ")
+leia(valor_cliente)
+valor_receber<- (valor_cliente-30)
+escreval("Troco : R$",valor_receber)
+caso 3
+escreval("1 misto quente e 1 suco R$15,00")
+escreva("Valor que possue : ")
+leia(valor_cliente)
+valor_receber<- (valor_cliente-15)
+escreval("Troco : R$",valor_receber)
+fimescolha
+fimalgoritmo

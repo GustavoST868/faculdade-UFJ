@@ -1,0 +1,23 @@
+Var
+n1, n2 : inteiro
+o: caracter
+inicio
+escreval("Informe o valor do primeiro número : ")
+leia(n1)
+escreval("Informe o valor do segundp número: ")
+leia(n2)
+escreval("Informe a operação a ser feita : ")
+leia(o)
+escolha o
+caso "*"
+escreval( n1,"x",n2,"=","[",n1*n2," ]")
+caso "/"
+escreval( n1,"/",n2,"=","[",n1/n2," ]")
+caso "+"
+escreval( n1,"+",n2,"=","[",n1+n2," ]")
+caso "-"
+escreval( n1,"-",n2,"=","[",n1-n2," ]")
+outrocaso
+escreval("Informação inválida ")
+fimescolha
+fimalgoritmo

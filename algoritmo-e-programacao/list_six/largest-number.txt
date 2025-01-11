@@ -1,0 +1,14 @@
+var
+num ,num2 : real
+inicio
+escreval("Informe o primeiro número : ")
+leia(num)
+escreval("Informe o segundo número : ")
+leia(num2)
+se (num>num2) entao
+escreval("O primeiro número é o maior")
+fimse
+se (num2>num) entao
+escreval("O segundo número é o maior")
+fimse
+fimalgoritmo

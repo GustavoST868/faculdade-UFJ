@@ -1,0 +1,13 @@
+Algoritmo "Temperatura"
+Var
+horas, minutos, segundos, tempo_segundos:real
+Inicio
+escreva("Informe a quantidade de Horas : ")
+leia(horas)
+escreva("Informe a quantidade de minutos : ")
+leia(minutos)
+escreva("Informe a quantidade de segundos ")
+leia(segundos)
+tempo_segundos <- ((horas*60*60)+(minutos*60)+segundos)
+escreval("Há ",tempo_segundos," segundos no período informado.")
+Fimalgoritmo

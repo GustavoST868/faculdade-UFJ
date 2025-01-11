@@ -1,0 +1,9 @@
+Var
+segundos, horas, minutos:real
+Inicio
+escreva("Informe a quantidade de segundos do cronômetro: ")
+leia(segundos)
+horas <- ((segundos/60)/60)
+minutos <- (segundos/60)
+escreva(horas," horas,",minutos, " minutos e",segundos," segundos.")
+Fimalgoritmo

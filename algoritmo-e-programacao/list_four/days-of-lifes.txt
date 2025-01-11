@@ -1,0 +1,13 @@
+Algoritmo "Dias de Vida"
+Var
+nome:caracter
+idade:real
+dias_vida:real
+Inicio
+escreval("Informe seu nome : ")
+leia(nome)
+escreval("Informe sua idade : ")
+leia(idade)
+dias_vida <- idade*365
+escreva(nome," você possui aproximadamente",dias_vida," dias de vida.")
+Fimalgoritmo

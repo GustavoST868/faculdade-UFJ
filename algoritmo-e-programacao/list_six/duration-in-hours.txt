@@ -1,0 +1,20 @@
+var
+hi,hf : inteiro
+duracao: real
+inicio
+escreval("Informe o hora inicial do jogo : ")
+leia(hi)
+escreval("Informe a hora final do jogo : ")
+leia(hf)
+se (hi<0) entao
+escreval("Valor inválido")
+fimse
+se (hi<hf) entao
+duracao<- (hf-hi)
+escreval("A duração do jogo é ",duracao," horas.")
+fimse
+se (hi>hf) entao
+duracao<- ((24-hi)+hf)
+escreval("A duração do jogo é ",duracao," horas.")
+fimse
+fimalgoritmo

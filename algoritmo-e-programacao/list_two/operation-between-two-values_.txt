@@ -1,0 +1,49 @@
+var
+n1,n2,m,d,p : real
+operacao: real
+inicio
+escreval("1 Média entre os valores digitados")
+escreval("2 Diferença do maior pelo menor")
+escreval("3 Produto entre os números digitados")
+escreval("4 Divisão do primeiro pelo segundo")
+escreval("Operação desejada : ")
+leia(operacao)
+escolha operacao
+caso 1
+escreval("Primeiro número : ")
+leia(n1)
+escreval("Segundo número : ")
+leia(n2)
+m<-((n1+n2)/2)
+escreval("Média : ",m)
+caso 2
+escreval("Primeiro número : ")
+leia(n1)
+escreval("Segundo número : ")
+leia(n2)
+se (n1>n2) entao
+d<-(n1-n2)
+escreval("Diferença : ",d)
+senao
+d<-(n2-n1)
+escreval("Diferença : ",d)
+fimse
+caso 3
+escreval("Primeiro número : ")
+leia(n1)
+escreval("Segundo número : ")
+leia(n2)
+p<-(n1*n2)
+escreval("Produto : ",p)
+caso 4
+escreval("Não informar um valor que leve a uma divisão por zero.")
+escreval("Primeiro número : ")
+leia(n1)
+escreval("Segundo número : ")
+leia(n2)
+d<- (n1/n2)
+escreval("Divisão : ",d)
+outrocaso
+escreval("Informação inválida")
+fimescolha
+fimalgoritmo

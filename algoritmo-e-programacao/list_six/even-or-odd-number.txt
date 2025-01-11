@@ -1,0 +1,11 @@
+Var
+num1:inteiro
+Inicio
+escreval("Informe um número")
+leia(num1)
+se(num1%2=0) entao
+escreval("O número é par")
+senao
+escreval("O numero é impar")
+fimse
+fimalgoritmo

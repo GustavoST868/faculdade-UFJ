@@ -1,0 +1,46 @@
+Var
+a:inteiro
+inicio
+repita
+escreval("Digite o valor do exercicio a ser mostrado de 1 a 3")
+escreval("Caso queira parar digite 0 ")
+leia(a)
+escolha(a)
+caso 1
+escreval("1 – Usando escolha caso, faça um menu iterativo (repita até)")
+escreval(" para selecionar os exercícios em pseudocodigo")
+escreval("O algoritmo encerra quando o usuário digitar 0. ")
+caso 2
+escreval("– Escreva o algoritmo em que o usuário digita um determinado")
+escreval("o valor e, usando o laço (repita até), calcule a")
+escreval("“tabuada” de 1 a 10.Fiquem atentos à formatação")
+escreval("o, ou seja, unidade embaixo de unidade e dezena embaixo")
+escreval("de dezena. Exemplo:")
+escreval("6 * 1 = 6")
+escreval("6 * 2 = 12")
+escreval("6 * 3 = 24")
+escreval("6 * 4 = 36")
+escreval("6 * 5 = 30")
+escreval("6 * 6 = 36")
+escreval("6 * 7 = 42")
+escreval("6 * 8 = 48")
+escreval("6 * 9 = 54")
+escreval("6 *10 = 60")
+caso 3
+escreval("Seja um caixa de supermercado passando as compras")
+escreval("o as compras dos clientes. Usando o quadro abaixo, faça um algoritmo")
+escreval(" que receba o código do produto, a quantidade de cada produto")
+escreval("o e calcule o total a pagar. Mostrar uma mensagem")
+escreval(" no caso de código inválido, sabendo que ao digitar -1,")
+escreval("o usuário sai do laço enquanto.")
+escreval("Código do produto Preço unitário")
+escreval("101 R$ 15,20")
+escreval("202 R$ 4,99")
+escreval("303 R$ 8,57")
+escreval("404 R$ 1,40")
+escreval("505 R$ 9,98")
+outrocaso
+escreval("Exercicio invalido")
+fimescolha
+ate(a=0)
+fimalgoritmo

@@ -1,0 +1,16 @@
+var
+a, raiz,antecessor,sucessor: real
+inicio
+escreval("Informe o valor de a : ")
+leia(a)
+se (a<0) entao
+escreval("Valor negativo")
+senao
+raiz<- (a)^(1/2)
+sucessor<- a+1
+antecessor<- a-1
+escreval("A raiz quadrada é ",raiz)
+escreval("O sucessor é ",sucessor)
+escreval("O antecessor é ",antecessor)
+fimse
+fimalgoritmo

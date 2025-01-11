@@ -1,0 +1,42 @@
+var
+ano : inteiro
+mes:caracter
+inicio
+escreval("Informe os meses com todas as letras maiúsculas.")
+escreval("Informe o mês : ")
+leia(mes)
+escolha mes
+caso "Janeiro"
+escreval("Possue 31 dias")
+caso "Fevereiro"
+escreva("Informe o ano : ")
+leia(ano)
+se (ano%4=0) e (ano%100<>0) entao
+escreval("O ano é bissexto,fevereiro possue 29 dias.")
+senao
+escreval("Possue 28 dias.")
+fimse
+caso "Março"
+escreval("Possue 31 dias")
+caso "Abril"
+escreval("Possue 30 dias")
+caso "Maio"
+escreval("Possue 31 dias")
+caso "Junho"
+escreval("Possue 30 dias")
+caso "Julho"
+escreval("Possue 31 dias")
+caso "Agosto"
+escreval("Possue 31 dias")
+caso "Setembro"
+escreval("Possue 30 dias")
+caso "Outubro"
+escreval("Possue 31 dias")
+caso "Novembro"
+escreval("Possue 30 dias")
+caso "Dezembro"
+escreval("Possue 31 dias")
+outrocaso
+escreval("Informação Inválida")
+fimescolha
+fimalgoritmo

@@ -1,0 +1,65 @@
+Algoritmo "1"
+Var
+a,b:inteiro
+Inicio
+a<-0
+escreva("valor para calcular a tabuada : ")
+leia(b)
+repita
+a<-(a+1)
+escreval(b:2," x ", a:2," = ",(b*a):2)
+ate (a=10)
+Fimalgoritmo
+Questão 3
+Algoritmo "semnome"
+Var
+a,b,c,d,r,n:real
+Inicio
+b<-0
+c<-0
+d<-0
+n<-0
+escreval("Código do produto Preço unitário")
+escreval("101 R$ 15,20")
+escreval("202 R$ 4,99")
+escreval("303 R$ 8,57")
+escreval("404 R$ 1,40")
+escreval("505 R$ 9,98")
+repita
+escreval("Quais produtos voce deseja,aperte -1 para finalizar a compra.")
+leia(b)
+escolha b
+caso 101
+escreval("Quantos voce deseja ?")
+leia (c)
+d<-15.2*C
+r<-(r+d)
+caso 202
+escreval("Quantos voce deseja ?")
+leia(c)
+d<-4.99*c
+r<-(r+d)
+caso 303
+escreval("Quantos voce deseja ?")
+leia(c)
+d<-8.57*c
+r<-(r+d)
+caso 404
+escreval("Quantos voce deseja ?")
+leia(c)
+d<-1.4*c
+r<-(r+d)
+caso 505
+escreval("Quantos voce deseja ?")
+leia(c)
+d<-9.98*c
+r<-(r+d)
+caso -1
+escreval("compra sera finalizada")
+outrocaso
+escreval("Codigo de produto invalido")
+fimescolha
+escreval("Valor total da compra : R$",r)
+ate(b=-1)
+fimalgoritmo
+Fimalgoritmo

@@ -1,0 +1,23 @@
+var
+n1,n2,n3 : real
+met : caracter
+inicio
+escreval("Primeira nota : ")
+leia(n1)
+escreval("Segunda nota : ")
+leia(n2)
+escreval("Terceira nota : ")
+leia(n3)
+escreval("Média Aritmética(MA)/Média Ponderada(MP)/Harmônica(H) : ")
+leia(met)
+escolha met
+caso "MA"
+escreval("MA = ",((n1+n2+n3)/3))
+caso "MP"
+escreval("MP =",(((N1*3)+(N2*3)+(N3*4))/(10)) )
+caso "H"
+escreval("A = ",((3)/(1/n1)+(1/n2)+(1/n3)))
+outrocaso
+escreval("Informações Inválidas")
+fimescolha
+fimalgoritmo

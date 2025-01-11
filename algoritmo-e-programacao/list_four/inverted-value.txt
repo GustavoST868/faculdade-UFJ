@@ -1,0 +1,10 @@
+Var
+numero, resto, p_n:real
+Inicio
+escreval("Informe um número : ")
+leia(numero)
+resto <- numero%10
+p_n <- (numero-resto)/10
+escreval("Valor informado : ",p_n,resto)
+escreval("Valor invertido : ",resto,p_n)
+Fimalgoritmo

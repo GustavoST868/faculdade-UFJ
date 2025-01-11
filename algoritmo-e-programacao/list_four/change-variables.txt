@@ -1,0 +1,35 @@
+Var
+nome:caracter
+Inicio
+escreva("Olá eu sou o Nº 1, como é seu nome?")
+leia(nome)
+escreva("Bem-vindo ao clube ",nome)
+Fimalgoritmo
+Questão 2
+A- Var
+A, B, C, D: inteiro;
+Inicio
+D <- 1
+A <- 1
+B <- 2
+C <- 3
+A <- A+(D*2)
+B <- B-D
+C <- C-D
+escreval("A =",A)
+escreval("B =",B)
+escreval("C =",C)
+Fimalgoritmo
+B-Var
+A, B, C: inteiro;
+Inicio
+A <- 1
+B <- 2
+C <- 3
+A <- A+2
+B <- B-1
+C <- C-B
+escreval("A =",A)
+escreval("B =",B)
+escreval("C =",C)
+Fimalgoritmo

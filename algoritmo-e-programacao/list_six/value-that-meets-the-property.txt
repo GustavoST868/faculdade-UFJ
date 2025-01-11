@@ -1,0 +1,13 @@
+var
+num ,part_1,part_2: real
+inicio
+escreval("Informe um número : ")
+leia(num)
+part_1 <-(num/100)%100
+part_2 <- num%100
+se ((part_1+part_2)^2=num) entao
+escreval("O valor atende a essa propriedade.")
+senao
+escreval("O valor não atende a essa propriedade.")
+fimse
+fimalgoritmo

@@ -1,0 +1,28 @@
+Var
+v,r,n100,n50,n20,n10,n5,n2,n1: inteiro
+Inicio
+escreval("Informe o valor que você deseja sacar : ")
+leia(v)
+n100 <- v\100
+r <- v%100
+n50 <- r\50
+r <- r%50
+n20 <- r\20
+r <- r%20
+n10 <- r\10
+r <- r%10
+n5 <-r\5
+r <- r%5
+n2 <-r\2
+r <-r%2
+n1 <-r\1
+r <-r%1
+escreval("O valor retirado é de :")
+escreval(n100," nota(s) de 100.")
+escreval(n50," nota(s) de 50.")
+escreval(n20," nota(s) de 20.")
+escreval(n10," nota(s) de 10.")
+escreval(n5," nota(s) de 5.")
+escreval(n2," nota(s) de 2.")
+escreval(n1," nota(s) de 1.")
+Fimalgoritmo
